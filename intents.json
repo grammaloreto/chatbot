@@ -1,7 +1,7 @@
 {
     "intents": [
       {
-        "tag": "greeting",
+        "tag": "saludo",
         "patterns": [
           "Hola",
           "Hey",
@@ -25,8 +25,8 @@
         ]
       },
       {
-        "tag": "goodbye",
-        "patterns": ["Bye", "Chao"],
+        "tag": "despedida",
+        "patterns": ["Bye", "Chao", "Nos Vemos"],
         "responses": [
           "Gracias por la charla, disfruto hablar contigo!",
           "Que tengas buen resto de dia",
@@ -34,58 +34,64 @@
         ]
       },
       {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        "tag": "gracias",
+        "patterns": ["Gracias", "Me salvaste", "Eso fue de gran ayuda", "Muchas gracias!"],
+        "responses": ["Feliz en ayudarte!", "En cualquier momento!", "Con gusto"]
       },
       {
-        "tag": "items",
+        "tag": "funcion",
         "patterns": [
-          "What do you do?",
-          "Help me",
-          "I want to know about colombian beaches",
-          "Recomend me a beach"
+          "Que haces?",
+          "Ayudame",
+          "Que sabes de playas",
+          "De que hablas"
         ],
         "responses": [
-          "I can talk about colombian beaches with you",
-          "Ask me about colombian beaches!"
+          "Puedo hablar de playas contigo",
+          "Se de gestion de playas y nlp!",
+          "Te recomendaria revisar que es nlp y despues si hablamos "
         ]
       },
       {
-        "tag": "payments",
+        "tag": "nlp",
         "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
+          "Que sabes de nlp",
+          "Como aplicas nlp a playas",
+          "como puedo gestionar mi playa",
+          "Sabes de gestion de playas?"
         ],
         "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
+          "Nlp resulta ser muy efectivo para gestionar playas",
+          "Los analisis de sentimientos pueden ayudarte a obtener info",
+          "Puedes sacar conocimiento de otras playas",
+          "las palabras tienen mucho poder"
         ]
       },
       {
-        "tag": "delivery",
+        "tag": "ruta",
         "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
+          "",
+          "Que necesito aprender?",
+          "Como puedo empezar?",
+          "Quiero meterme en este mundo"
         ],
         "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "Puedes empezar aprendiendo Python",
+          "Has considerado conocer algo de Machine Learning",
+          "Lee algo de procesamiento de lenguaje natural"
         ]
       },
       {
-        "tag": "funny",
+        "tag": "playas",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
+          "Cual es la playa mas inteligente",
+          "Que playa me recomendarias?",
+          "Sabes que playa implementa tech?"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "Benidorm en Valencia es un gran ejemplo de Gestion de playas",
+          "En lo particular amo Benicassim",
+          "Las playas de la comunidad Valenciana en españa son muy inteligentes"
         ]
       }
     ]
