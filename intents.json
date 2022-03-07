@@ -3,27 +3,34 @@
       {
         "tag": "greeting",
         "patterns": [
-          "Hi",
+          "Hola",
           "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
+          "Hay alguien ahi?",
+          "Hi",
+          "Buenas",
+          "Buenas tardes",
+          "Buenas noches",
+          "Buenos dias",
+          "Todo bien?",
+          "Ola",
+          "Olas",
+          "Oe"
+
         ],
         "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hola :-)",
+          "Hola, es un gusto poder hablar contigo",
+          "Como vas! en que te puedo ayudar?",
+          "Buenas!, puedo ayudarte en algo?"
         ]
       },
       {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
+        "patterns": ["Bye", "Chao"],
         "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
+          "Gracias por la charla, disfruto hablar contigo!",
+          "Que tengas buen resto de dia",
+          "Bye! Regresa pronto!!."
         ]
       },
       {
@@ -34,13 +41,14 @@
       {
         "tag": "items",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "What do you do?",
+          "Help me",
+          "I want to know about colombian beaches",
+          "Recomend me a beach"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "I can talk about colombian beaches with you",
+          "Ask me about colombian beaches!"
         ]
       },
       {

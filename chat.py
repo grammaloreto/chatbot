@@ -26,11 +26,11 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "El Viejo Willy"
-print("Let's chat! (type 'quit' to exit)")
+print("Vamos a hablar de Playas! (Escribe 'exit' para salir)")
 while True:
     # sentence = "do you use credit cards?"
-    sentence = input("You: ")
-    if sentence == "quit":
+    sentence = input("Tu: ")
+    if sentence == "exit":
         break
 
     sentence = tokenize(sentence)
