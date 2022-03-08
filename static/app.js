@@ -1,9 +1,9 @@
 class Chatbox {
     constructor() {
         this.args = {
-            openButton: document.querySelector(selectors:'.chatbox__button'),
-            chatBox: document.querySelector(selectors:'.chatbox__support'),
-            sendButton: document.querySelector(selectors:'.send__button')
+            openButton: document.querySelector('.chatbox__button'),
+            chatBox: document.querySelector('.chatbox__support'),
+            sendButton: document.querySelector('.send__button')
         }
 
         this.state = false;
@@ -13,9 +13,9 @@ class Chatbox {
         display() {
             const {openButton, chatBox, sendButton} = this.args;
 
-            openButton.addEventListener(type:'click', listener:() => this.toggleState(chatBox))
+            openButton.addEventListener('click', () => this.toggleState(chatBox))
 
-            sendButton.addEventListener(type:'click', listener:() => this.onSendButton(chatBox))
+            sendButton.addEventListener('click', () => this.onSendButton(chatBox))
 
             const node = chatBox.querySelector('input');
             node.addEventListener("keyup", ({key}) => {
@@ -33,7 +33,7 @@ class Chatbox {
             if(this.state) {
                 chatbox.classList.add('chatbox--active')
             } else {
-                chatbox.classList.remove(tokens:'chatbox--active')
+                chatbox.classList.remove('chatbox--active')
             }
         }
 
@@ -47,10 +47,10 @@ class Chatbox {
             let msg1 = { name: "User", message: text1 }
             this.message.push(msg1);
 
-
-            fetch(input:$SCRIPT_ROOT + '/predict', init:{
+            // 'http://127.0.0.1:5000/predict
+            fetch($SCRIPT_ROOT + '/predict', {
                 method: 'POST',
-                body: JSON.stringify(value{ message: text1}),
+                body: JSON.stringify({ message: text1 }),
                 mode: 'cors',
                 headers: {
                     'Content-Type': 'application/json'
@@ -65,19 +65,20 @@ class Chatbox {
 
             }).catch((error) => {
                 console.error('Error:', error);
-                this.updatechatText(chatbox)
+                this.updateChatText(chatbox)
                 textField.value = ''
             });
         }
 
-        updatechartText(chatbox) {
+        updateChatText(chatbox) {
             var html = '';
             this.messages.slice().reverse().forEach(function(item) {
                 if (item.name === "El Viejo Willy")
                 {
                     html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
                 }
-                else{
+                else
+                {
                     html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
                 }
             });
@@ -87,5 +88,7 @@ class Chatbox {
         }
 
 
-
 }
+
+const chatbox = new Chatbox();
+chatbox.display();
