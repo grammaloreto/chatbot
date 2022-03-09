@@ -131,13 +131,26 @@
           "que sabes de playas",
           "hablemos de playas",
           "cuentame de playas",
-          "playas",
-          "quien eres willy"
+          "playas"
         ],
         "responses": [
           "Se mas de lo que crees de playas",
-          "estoy muy bien entrenado por biologos marinos, ingenieros y grupos gestores de playas",
-          "Podria empezar diciendote que las Playas de manglar son mis ecosistemas favoritos, me encanta bucear y mi especie marina favorita es Gramma loreto"
+          "estoy muy bien entrenado por biologos marinos, ingenieros y grupos gestores de playas"
+        ]
+      },
+      {
+        "tag": "willy",
+        "patterns": [
+          "Willy",
+          "que sabes willy",
+          "hola willy",
+          "el viejo willy",
+          "quien eres willy"
+        ],
+        "responses": [
+          "echeee, podria empezar diciendote que las Playas de manglar son mis ecosistemas favoritos, me encanta bucear y mi especie marina favorita es Gramma loreto",
+          "hace muchos años vendia ceviches... hoy en dia y gracias a mi experiencia he trabajado en grupos multidisciplinarios que me han dejado mucho",
+          "se mucho de playas! conozco muchas en todo el mundo. Buceo, apoyo programas de conservacion y educacion, ademas he hacer charlas por todo el mundo"
         ]
       }
     ]
