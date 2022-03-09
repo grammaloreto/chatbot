@@ -152,6 +152,21 @@
           "hace muchos años vendia ceviches... hoy en dia y gracias a mi experiencia he trabajado en grupos multidisciplinarios que me han dejado mucho",
           "se mucho de playas! conozco muchas en todo el mundo. Buceo, apoyo programas de conservacion y educacion, ademas he hacer charlas por todo el mundo"
         ]
+      },
+      {
+        "tag": "playas4",
+        "patterns": [
+          "Que es una playa inteligente",
+          "playas inteligentes",
+          "destinos inteligentes",
+          "playas y datos"
+        ],
+        "responses": [
+          "Son playas con un modelo basado de datos las cuales toman desiciones en base a su analisis",
+          "Playas conectadas, con diferentes dispositivos que aportan datos y conocimiento",
+          "Las playas que hacen un mejor uso de sus datos y que cuando no los tiene ella misma se los busca",
+          "Las playas inteligentes son aquellas que en la actualidad muestrsn mejores resultados en sostenibilidad y calidad de servicios"
+        ]
       }
     ]
   }
