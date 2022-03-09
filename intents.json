@@ -5,8 +5,9 @@
         "patterns": [
           "Hola",
           "Hey",
-          "Hay alguien ahi?",
+          "Alguien ahi?",
           "Hi",
+          "Hello",
           "Buenas",
           "Buenas tardes",
           "Buenas noches",
@@ -30,47 +31,49 @@
         "responses": [
           "Gracias por la charla, disfruto hablar contigo!",
           "Que tengas buen resto de dia",
-          "Bye! Regresa pronto!!."
+          "Bye! Regresa pronto por aca!!."
         ]
       },
       {
         "tag": "gracias",
-        "patterns": ["Gracias", "Me salvaste", "Eso fue de gran ayuda", "Muchas gracias!"],
-        "responses": ["Feliz en ayudarte!", "En cualquier momento!", "Con gusto"]
+        "patterns": ["Gracias", "Me salvaste", "Eso fue de gran ayuda", "Muchas gracias"],
+        "responses": ["Me complece mucho ayudarte!", "En cualquier momento!", "Con gusto"]
       },
       {
-        "tag": "funcion",
+        "tag": "funciones",
         "patterns": [
           "Que haces?",
           "Ayudame",
-          "Que sabes de playas",
-          "De que hablas"
+          "Que sabes",
+          "De que hablas",
+          "Quien eres",
+          "Que recomiendas"
         ],
         "responses": [
           "Puedo hablar de playas contigo",
           "Se de gestion de playas y nlp!",
-          "Te recomendaria revisar que es nlp y despues si hablamos "
+          "Te recomendaria revisar que es nlp y despues podemos hablar mas"
         ]
       },
       {
         "tag": "nlp",
         "patterns": [
-          "Que sabes de nlp",
-          "Como aplicas nlp a playas",
-          "como puedo gestionar mi playa",
-          "Sabes de gestion de playas?"
+          "Que es nlp",
+          "nlp",
+          "Lenguaje de porcesamiento natural",
+          "lpn"
         ],
         "responses": [
-          "Nlp resulta ser muy efectivo para gestionar playas",
-          "Los analisis de sentimientos pueden ayudarte a obtener info",
-          "Puedes sacar conocimiento de otras playas",
-          "las palabras tienen mucho poder"
+          "Nlp viene del ingles 'Natural language processing' y es basicamente la comunicacion efectiva de lenguaje humano con las maquinas",
+          "Nlp es la comunicacion efectiva del lenguaje humano con las maquinas",
+          "Nlp es un espectro amplio de aprendizaje automatico 'Machine Learning' que cada vez cobra mas valor en diferentes ambitos",
+          "Nlp es una herramienta muy poderosa de lenguaje con las maquinas que puede ser aplicada para infinidad de campos"
         ]
       },
       {
         "tag": "ruta",
         "patterns": [
-          "",
+          "Como aprendo tecnologia para playas",
           "Que necesito aprender?",
           "Como puedo empezar?",
           "Quiero meterme en este mundo"
@@ -78,7 +81,7 @@
         "responses": [
           "Puedes empezar aprendiendo Python",
           "Has considerado conocer algo de Machine Learning",
-          "Lee algo de procesamiento de lenguaje natural"
+          "Lee algo de procesamiento de lenguaje natural o analisis de sentimientos"
         ]
       },
       {
@@ -92,6 +95,49 @@
           "Benidorm en Valencia es un gran ejemplo de Gestion de playas",
           "En lo particular amo Benicassim",
           "Las playas de la comunidad Valenciana en españa son muy inteligentes"
+        ]
+      },
+      {
+        "tag": "playa1",
+        "patterns": [
+          "Como esta la gestion de playas en Colombia",
+          "gestion de playas en Colombia",
+          "Playas en Colombia",
+          "Tecnologia y playas en colombia"
+        ],
+        "responses": [
+          "La gestion de playas en Colombia necesita acelerar la transicion hacia playas mas inteligentes y sostenibles",
+          "Estamos certificando las primeras playas con el galardon de Bandera Azul pero el campo necesita mas conexion y digitalizacion",
+          "Necesitamos playas inteligentes y mas sostenibles"
+        ]
+      },
+      {
+        "tag": "playas2",
+        "patterns": [
+          "que es un analisis de sentimientos",
+          "Que es BERT",
+          "bert",
+          "analisis sentimientos"
+        ],
+        "responses": [
+          "Es una herramienta de clasificacion de lenguaje en el que se puede sacar conocimiento de los comentarios, reseñas, opiniones de los usuarios",
+          "Es algo que puede ayudar a conocer mejor los usuarios y sacar conocimiento de sus comentarios en redes sociales",
+          "Bert y analisis de sentimientos son modelos potentes de clasificacion de lenguaje muy entrenados con gran cantidad de datos en diferentes idiomas"
+        ]
+      },
+      {
+        "tag": "playas3",
+        "patterns": [
+          "que sabes de playas",
+          "hablemos de playas",
+          "cuentame de playas",
+          "playas",
+          "quien eres willy"
+        ],
+        "responses": [
+          "Se mas de lo que crees de playas",
+          "estoy muy bien entrenado por biologos marinos, ingenieros y grupos gestores de playas",
+          "Podria empezar diciendote que las Playas de manglar son mis ecosistemas favoritos, me encanta bucear y mi especie marina favorita es Gramma loreto"
         ]
       }
     ]
