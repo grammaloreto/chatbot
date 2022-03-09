@@ -4,8 +4,9 @@
         "tag": "saludo",
         "patterns": [
           "Hola",
+          "Hola Willy",
+          "Hola Wily",
           "Hey",
-          "Alguien ahi?",
           "Hi",
           "Hello",
           "Buenas",
@@ -60,7 +61,6 @@
         "patterns": [
           "Que es nlp",
           "nlp",
-          "Lenguaje de porcesamiento natural",
           "lpn"
         ],
         "responses": [
@@ -144,6 +144,7 @@
           "Willy",
           "que sabes willy",
           "hola willy",
+          "Alguien ahi?",
           "el viejo willy",
           "quien eres willy"
         ],
@@ -166,6 +167,79 @@
           "Playas conectadas, con diferentes dispositivos que aportan datos y conocimiento",
           "Las playas que hacen un mejor uso de sus datos y que cuando no los tiene ella misma se los busca",
           "Las playas inteligentes son aquellas que en la actualidad muestrsn mejores resultados en sostenibilidad y calidad de servicios"
+        ]
+      },
+      {
+        "tag": "nlp2",
+        "patterns": [
+          "hablame mas de nlp",
+          "cuentame mas de nlp",
+          "para que sirve nlp",
+          "procesamiento de lenguaje natural",
+          "mas de nlp",
+          "definicion nlp",
+          "como definirias nlp",
+          "pln que es"
+        ],
+        "responses": [
+          "Es una tecnica que asimila la informatica, ciencia, linguistica y las matematicas con el objetivo principal de traducir lenguajes humanos (o naturales) en comandos que pueden ser ejecutados por computadoras",
+          "NLP consta de dos investigaciones o 2 ramas principales: comprension del lenguaje natural y generacion del lenguaje natural (NLG)",
+          "Es una tecnica analitica asistida por computadora destinada a analizar automaticamente y comprender el lenguaje humano"
+        ]
+      },
+      {
+        "tag": "playas5",
+        "patterns": [
+          "que playa de colombia me recomiendas",
+          "las mejores playas de colombia",
+          "playa de colombia que recomiendas",
+          "playas recomendadas en Colombia",
+          "playa colombiana recomendada",
+          "a donde ir en la cosa de costa colombiana",
+          "costa de Colombia",
+          "la mejor playa de colombia",
+          "playa caribe de colomiba",          
+          "dime a que playa voy en colombia"
+        ],
+        "responses": [
+          "Segun mi analisis de sentimientos las mejores playas de colombia son el Cabo de la Vela (Guajira) y pplaya San Luis (Archipielago de San Andres)",
+          "En base a mi analisis de sentimientos las Playas del Cabo de la vela son las mejores reseñadas del pais",
+          "Te recomiendo las de la Guajira que estan muy bien rankeadas en analisis de sentimientos",
+          "Despues del Cabo de la Vela o Playa San Luis (San Andres) podrias considerar Playa Cristal en Magdalena"
+        ]
+      },
+      {
+        "tag": "playas6",
+        "patterns": [
+          "peor playa de Colombia",
+          "playa que no recomiendas",
+          "playa no recomendada",
+          "playa que no recomendarias",
+          "no recomendada",
+          "playa no tan buena",
+          "playa con puntaje bajo",
+          "playas que se rajan"
+        ],
+        "responses": [
+          "Segun mi analisis de sentimientos a Playa Blanca de Baru no le fue muy bien con la opinion de los turistas, aunque deberias darle una oportunidad! las Playas de Baru, Cartagena y Bolivar son hermosas!",
+          "Te recomiendo todas las playas de Colombia!"
+        ]
+      },
+      {
+        "tag": "porque",
+        "patterns": [
+          "por que",
+          "que",
+          "mas",
+          "habla mas",
+          "continua",
+          "sigue",
+          "se mas especifico",
+          "cuentamelo todo"
+        ],
+        "responses": [
+          "Podrias ser mas especifico con tu pregunta o comentario",
+          "Se mas especifico porfa..."
         ]
       }
     ]
