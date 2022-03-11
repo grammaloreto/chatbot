@@ -1,6 +1,20 @@
 {
     "intents": [
       {
+        "tag": "willy",
+        "patterns": [
+          "Que sabes willy",
+          "Alguien ahi?",
+          "El viejo willy",
+          "Quien eres willy"
+        ],
+        "responses": [
+          "echeee... podria empezar diciendote que las Playas de manglar son mis ecosistemas favoritos, me encanta bucear y mi especie marina favorita es Gramma loreto",
+          "Hace muchos años vendia ceviches... hoy en dia y gracias a mi experiencia se muchisimo de playas",
+          "Se mucho de playas! conozco muchas en todo el mundo. Buceo, apoyo programas de conservacion y educacion, ademas de hacer charlas por todo el mundo"
+        ]
+      },
+      {
         "tag": "saludo",
         "patterns": [
           "Hola",
@@ -20,7 +34,7 @@
 
         ],
         "responses": [
-          "Hola :-)",
+          "Hola!!!",
           "Hola, es un gusto poder hablar contigo",
           "Como vas! en que te puedo ayudar?",
           "Buenas!, puedo ayudarte en algo?"
@@ -37,190 +51,28 @@
       },
       {
         "tag": "gracias",
-        "patterns": ["Gracias", "Me salvaste", "Eso fue de gran ayuda", "Muchas gracias"],
+        "patterns": ["Gracias", "Me salvaste", "Gran ayuda", "Te amo", "Muchas gracias"],
         "responses": ["Me complece mucho ayudarte!", "En cualquier momento!", "Con gusto"]
       },
       {
-        "tag": "funciones",
+        "tag": "playa",
         "patterns": [
-          "Que haces?",
-          "Ayudame",
-          "Que sabes",
-          "De que hablas",
-          "Quien eres",
-          "Que recomiendas"
+          "Que playa de colombia me recomiendas",
+          "Las mejores playas de colombia",
+          "Playa de colombia que recomiendas",
+          "Playas recomendadas en Colombia",
+          "Playa colombiana recomendada",
+          "Donde ir en la cosa de costa colombiana",
+          "Costa de Colombia",
+          "La mejor playa de colombia",
+          "Playa caribe de colomiba",          
+          "Dime a que playa voy en colombia"
         ],
         "responses": [
-          "Puedo hablar de playas contigo",
-          "Se de gestion de playas y nlp!",
-          "Te recomendaria revisar que es nlp y despues podemos hablar mas"
-        ]
-      },
-      {
-        "tag": "nlp",
-        "patterns": [
-          "Que es nlp",
-          "nlp",
-          "lpn"
-        ],
-        "responses": [
-          "Nlp viene del ingles 'Natural language processing' y es basicamente la comunicacion efectiva de lenguaje humano con las maquinas",
-          "Nlp es la comunicacion efectiva del lenguaje humano con las maquinas",
-          "Nlp es un espectro amplio de aprendizaje automatico 'Machine Learning' que cada vez cobra mas valor en diferentes ambitos",
-          "Nlp es una herramienta muy poderosa de lenguaje con las maquinas que puede ser aplicada para infinidad de campos"
-        ]
-      },
-      {
-        "tag": "ruta",
-        "patterns": [
-          "Como aprendo tecnologia para playas",
-          "Que necesito aprender?",
-          "Como puedo empezar?",
-          "Quiero meterme en este mundo"
-        ],
-        "responses": [
-          "Puedes empezar aprendiendo Python",
-          "Has considerado conocer algo de Machine Learning",
-          "Lee algo de procesamiento de lenguaje natural o analisis de sentimientos"
-        ]
-      },
-      {
-        "tag": "playas",
-        "patterns": [
-          "Cual es la playa mas inteligente",
-          "Que playa me recomendarias?",
-          "Sabes que playa implementa tech?"
-        ],
-        "responses": [
-          "Benidorm en Valencia es un gran ejemplo de Gestion de playas",
-          "En lo particular amo Benicassim",
-          "Las playas de la comunidad Valenciana en españa son muy inteligentes"
-        ]
-      },
-      {
-        "tag": "playa1",
-        "patterns": [
-          "Como esta la gestion de playas en Colombia",
-          "gestion de playas en Colombia",
-          "Playas en Colombia",
-          "Tecnologia y playas en colombia"
-        ],
-        "responses": [
-          "La gestion de playas en Colombia necesita acelerar la transicion hacia playas mas inteligentes y sostenibles",
-          "Estamos certificando las primeras playas con el galardon de Bandera Azul pero el campo necesita mas conexion y digitalizacion",
-          "Necesitamos playas inteligentes y mas sostenibles"
-        ]
-      },
-      {
-        "tag": "playas2",
-        "patterns": [
-          "que es un analisis de sentimientos",
-          "Que es BERT",
-          "bert",
-          "analisis sentimientos"
-        ],
-        "responses": [
-          "Es una herramienta de clasificacion de lenguaje en el que se puede sacar conocimiento de los comentarios, reseñas, opiniones de los usuarios",
-          "Es algo que puede ayudar a conocer mejor los usuarios y sacar conocimiento de sus comentarios en redes sociales",
-          "Bert y analisis de sentimientos son modelos potentes de clasificacion de lenguaje muy entrenados con gran cantidad de datos en diferentes idiomas"
-        ]
-      },
-      {
-        "tag": "playas3",
-        "patterns": [
-          "que sabes de playas",
-          "hablemos de playas",
-          "cuentame de playas",
-          "playas"
-        ],
-        "responses": [
-          "Se mas de lo que crees de playas",
-          "estoy muy bien entrenado por biologos marinos, ingenieros y grupos gestores de playas"
-        ]
-      },
-      {
-        "tag": "willy",
-        "patterns": [
-          "que sabes willy",
-          "Alguien ahi?",
-          "el viejo willy",
-          "quien eres willy"
-        ],
-        "responses": [
-          "echeee, podria empezar diciendote que las Playas de manglar son mis ecosistemas favoritos, me encanta bucear y mi especie marina favorita es Gramma loreto",
-          "hace muchos años vendia ceviches... hoy en dia y gracias a mi experiencia he trabajado en grupos multidisciplinarios que me han dejado mucho",
-          "se mucho de playas! conozco muchas en todo el mundo. Buceo, apoyo programas de conservacion y educacion, ademas he hacer charlas por todo el mundo"
-        ]
-      },
-      {
-        "tag": "playas4",
-        "patterns": [
-          "Que es una playa inteligente",
-          "playas inteligentes",
-          "destinos inteligentes",
-          "playas y datos"
-        ],
-        "responses": [
-          "Son playas con un modelo basado de datos las cuales toman desiciones en base a su analisis",
-          "Playas conectadas, con diferentes dispositivos que aportan datos y conocimiento",
-          "Las playas que hacen un mejor uso de sus datos y que cuando no los tiene ella misma se los busca",
-          "Las playas inteligentes son aquellas que en la actualidad muestrsn mejores resultados en sostenibilidad y calidad de servicios"
-        ]
-      },
-      {
-        "tag": "nlp2",
-        "patterns": [
-          "hablame mas de nlp",
-          "cuentame mas de nlp",
-          "para que sirve nlp",
-          "procesamiento de lenguaje natural",
-          "mas de nlp",
-          "definicion nlp",
-          "como definirias nlp",
-          "pln que es"
-        ],
-        "responses": [
-          "Es una tecnica que asimila la informatica, ciencia, linguistica y las matematicas con el objetivo principal de traducir lenguajes humanos (o naturales) en comandos que pueden ser ejecutados por computadoras",
-          "NLP consta de dos investigaciones o 2 ramas principales: comprension del lenguaje natural y generacion del lenguaje natural (NLG)",
-          "Es una tecnica analitica asistida por computadora destinada a analizar automaticamente y comprender el lenguaje humano"
-        ]
-      },
-      {
-        "tag": "playas5",
-        "patterns": [
-          "que playa de colombia me recomiendas",
-          "las mejores playas de colombia",
-          "playa de colombia que recomiendas",
-          "playas recomendadas en Colombia",
-          "playa colombiana recomendada",
-          "a donde ir en la cosa de costa colombiana",
-          "costa de Colombia",
-          "la mejor playa de colombia",
-          "playa caribe de colomiba",          
-          "dime a que playa voy en colombia"
-        ],
-        "responses": [
-          "Segun mi analisis de sentimientos las mejores playas de colombia son el Cabo de la Vela (Guajira) y pplaya San Luis (Archipielago de San Andres)",
+          "Segun mi analisis de sentimientos las mejores playas de colombia son el Cabo de la Vela (Guajira) y playa San Luis (Archipielago de San Andres)",
           "En base a mi analisis de sentimientos las Playas del Cabo de la vela son las mejores reseñadas del pais",
           "Te recomiendo las de la Guajira que estan muy bien rankeadas en analisis de sentimientos",
           "Despues del Cabo de la Vela o Playa San Luis (San Andres) podrias considerar Playa Cristal en Magdalena"
-        ]
-      },
-      {
-        "tag": "playas6",
-        "patterns": [
-          "peor playa de Colombia",
-          "playa que no recomiendas",
-          "playa no recomendada",
-          "playa que no recomendarias",
-          "no recomendada",
-          "playa no tan buena",
-          "playa con puntaje bajo",
-          "playas que se rajan"
-        ],
-        "responses": [
-          "Segun mi analisis de sentimientos a Playa Blanca de Baru no le fue muy bien con la opinion de los turistas, aunque deberias darle una oportunidad! las Playas de Baru, Cartagena y Bolivar son hermosas!",
-          "Te recomiendo todas las playas de Colombia!"
         ]
       },
       {
